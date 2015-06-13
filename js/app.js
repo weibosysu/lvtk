@@ -52,6 +52,7 @@ var myApp = {
 			var con0 = document.getElementsByTagName('section')[0];
 			myApp.getId("comment").insertBefore(section, con0);
 			myApp.show("detail-page");
+			myApp.hide("comment-page");
 		}, false);
 
 		myApp.getId("go-download").addEventListener('click', function(e){
